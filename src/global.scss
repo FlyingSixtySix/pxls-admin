@@ -1,0 +1,21 @@
+@import '../node_modules/gridjs/dist/theme/mermaid.min.css';
+
+.reports-btn {
+    white-space: nowrap;
+}
+
+.gridjs-wrapper {
+    overflow-x: hidden;
+}
+
+.reports-table {
+    width: 100%;
+}
+
+.reports-th {
+    padding: 10px !important;
+}
+
+.reports-td {
+    padding: 5px 10px !important;
+}
