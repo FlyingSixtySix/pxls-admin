@@ -25,6 +25,7 @@
 		"@sveltejs/adapter-node": "^1.1.0",
 		"admin-lte": "^3.2.0",
 		"bootstrap-scss": "^5.2.3",
+		"dotenv": "^16.0.3",
 		"gridjs": "^5.1.0",
 		"gridjs-svelte": "^2.1.1",
 		"moment": "^2.29.4",

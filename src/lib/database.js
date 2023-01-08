@@ -1,6 +1,6 @@
 import { Sequelize, DataTypes } from 'sequelize';
 
-export const sequelize = new Sequelize('postgres://andrew@localhost:5432/pxls');
+export const sequelize = new Sequelize(process.env.DATABASE_URI);
 
 export const User = sequelize.define('users', {
     id: { type: DataTypes.INTEGER, primaryKey: true, allowNull: false, unique: {
